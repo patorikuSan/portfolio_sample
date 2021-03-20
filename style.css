@@ -1,0 +1,171 @@
+
+*{
+	outline: 0
+}
+.wrapper{
+	width: 940px;
+	margin: 0 auto;
+}
+.header{
+	width: 940px;
+	min-height: 60px;
+	background-color: rgb(248, 248, 248);
+}
+	.header h1, h3{
+		display: inline-block;
+	}
+	.header h1{
+		margin-left: 20px;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+	.header h3{
+		margin-left: 400px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+.main_content{
+	width: 940px;
+	background-color: rgb(58, 43, 49);
+	margin: 0 auto;
+}
+	.main_content .my_profile{
+	width: 420px;
+	min-height: 290px;
+	margin-left: 25px;
+	border: 3px solid silver;
+	background-size: cover;
+	}
+	.main_content .about_me{
+	width: 440px;
+	min-height: 300px;
+	margin-left: 25px;
+	margin-top: 5px;
+	}
+	.main_content .about_me, .my_profile{
+	display: inline-block;
+	margin-top: 20px;
+	vertical-align: bottom;
+	}
+	.main_content .my_profile img{
+	width: 420px;
+	min-height: 290px;
+	}
+	.main_content .about_me img{
+	width: 438px;
+	min-height: 295px;
+	}
+.card_box{
+	width: 940px;
+	background-color: rgb(58, 43, 49);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+	.card_box .card{
+		width: 280px;
+		height: 550px;
+		background-color: rgb(232, 225, 232);
+		display: inline-block;
+		margin-left: 23px;
+		vertical-align: bottom;
+	}
+	.card_box .card h2{
+		background-color: rgb(147, 145, 155);
+		height: 40px;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: 10px;
+		padding-top: 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 19px;
+		color: white;
+	}
+	.card_box .card > img{
+		background-color: springgreen;
+		height: 150px;
+		width: 280px;
+		background-size: cover;
+	}
+	.card_box .card > p{
+		width: 260px;
+		height: 120px;
+		margin-top: 0;
+		padding-top: 5px;
+		margin-left: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	}
+	.card_box .card > h3{
+		margin-left: 0px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 17px;
+		width: 270px;
+		min-height: 30px;
+		padding-left: 10px;
+		padding-top: 15px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding-right: 0px;
+		background-color: rgb(147, 145, 155);
+		color: white;
+	}
+	.card_box .card .tools img{
+		width: 30px;
+		height: 30x;
+		padding: 10px;
+	}
+	.card_box .card .tools{
+		margin-bottom: 10px;
+	}
+	.card_box .card a{
+		bottom: 10px;
+		height: 30px;
+		margin-left: 90px;
+		padding: 5px;
+		background-color: forestgreen;
+		border-radius: 10px;
+		border: 1px solid black;
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+		color: whitesmoke;
+	}
+.footer{
+	width: 940px;
+	min-height: 40px;
+	background-color: rgb(248, 248, 248);
+}
+	.footer .social_media img, p{
+		display: inline-block;
+		margin-bottom: 2px;
+	}
+	.footer .contact{
+		margin: 0 auto;
+		width: 300px;
+	}
+	.footer .contact .number{
+		padding-left: 5px;
+		border-left: 2px solid black;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	.footer .contact .email{
+		margin-left: 30px;
+		padding-right: 5px;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	.footer .social_media{
+		margin: 0 auto;
+		width: 400px;
+		padding-left: 0px;
+		padding-top: 0;
+	}
+	.footer .social_media a{
+		color: black;
+		font-style: italic;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.footer img{
+		width: 25px;
+		min-height: 25px;
+		margin-left: 2px;
+	}
